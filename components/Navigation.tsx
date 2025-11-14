@@ -16,13 +16,13 @@ export function Navigation() {
             <span className="font-bold text-xl text-gray-800">BNC</span>
           </div>
           <div className="hidden md:flex gap-6">
-            <a href="#ueber-uns" className="text-gray-700 hover:text-amber-600 transition-colors">
+            <a href="#ueber-uns" className="text-gray-700 hover:text-teal-600 transition-colors font-medium">
               Über uns
             </a>
-            <a href="#aktivitaeten" className="text-gray-700 hover:text-amber-600 transition-colors">
+            <a href="#aktivitaeten" className="text-gray-700 hover:text-teal-600 transition-colors font-medium">
               Aktivitäten
             </a>
-            <a href="#mitmachen" className="text-gray-700 hover:text-amber-600 transition-colors">
+            <a href="#mitmachen" className="text-gray-700 hover:text-teal-600 transition-colors font-medium">
               Mitmachen
             </a>
           </div>

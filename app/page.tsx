@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-linear-to-b from-amber-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-teal-50 via-amber-50 to-white">
       <Navigation />
       <Hero />
       <AboutUs />

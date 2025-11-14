@@ -2,10 +2,10 @@ export function JoinUs() {
   return (
     <section id="mitmachen" className="py-16 px-4 bg-white">
       <div className="max-w-4xl mx-auto text-center -rotate-[0.5deg]">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 font-[family-name:var(--font-caveat)]">
-          Mitmachen & Mitglied werden
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 font-[family-name:var(--font-caveat)]">
+          <span className="hand-drawn-underline">Mitmachen & Mitglied werden</span>
         </h2>
-        <div className="bg-gradient-to-r from-amber-100 to-orange-100 rounded-lg p-8 md:p-12 shadow-lg">
+        <div className="bg-gradient-to-br from-teal-100 via-amber-100 to-orange-100 rounded-lg p-8 md:p-12 shadow-lg">
           <p className="text-lg md:text-xl text-gray-800 mb-6 leading-relaxed">
             Du hast Lust, bei uns mitzumachen? Dann bist du bei uns genau richtig!
             Egal ob du die Fasnet liebst, gerne mit anpackst oder einfach Teil einer
@@ -19,7 +19,7 @@ export function JoinUs() {
           <p className="text-xl font-semibold text-gray-900 mb-8">
             Gemeinsam gestalten wir das Dorfleben – sei dabei!
           </p>
-          <div className="inline-block bg-amber-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-md hover:bg-amber-700 transition-colors">
+          <div className="inline-block bg-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-md hover:bg-teal-700 transition-colors cursor-pointer">
             Kontakt aufnehmen
           </div>
         </div>

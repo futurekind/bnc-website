@@ -7,7 +7,7 @@ export function Footer() {
         <p className="mb-4">© {new Date().getFullYear()} Bruckfelder Narren-Club e.V.</p>
         <Link
           href="/impressum"
-          className="text-amber-400 hover:text-amber-300 transition-colors"
+          className="text-teal-400 hover:text-teal-300 transition-colors"
         >
           Impressum
         </Link>

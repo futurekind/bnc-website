@@ -2,8 +2,8 @@ export function AboutUs() {
   return (
     <section id="ueber-uns" className="py-16 px-4 bg-white">
       <div className="max-w-4xl mx-auto -rotate-[0.5deg]">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center font-[family-name:var(--font-caveat)]">
-          Über uns
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center font-[family-name:var(--font-caveat)]">
+          <span className="hand-drawn-underline">Über uns</span>
         </h2>
         <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
           <p>

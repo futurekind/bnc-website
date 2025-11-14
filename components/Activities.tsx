@@ -1,9 +1,9 @@
 export function Activities() {
   return (
-    <section id="aktivitaeten" className="py-16 px-4 bg-gradient-to-b from-amber-50 to-white">
+    <section id="aktivitaeten" className="py-16 px-4 bg-gradient-to-br from-amber-50 via-orange-50 to-teal-50">
       <div className="max-w-6xl mx-auto rotate-[0.5deg]">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 text-center font-[family-name:var(--font-caveat)]">
-          Unsere Aktivitäten
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center font-[family-name:var(--font-caveat)]">
+          <span className="hand-drawn-underline">Unsere Aktivitäten</span>
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           {/* Fasnetszeit */}
@@ -44,7 +44,7 @@ export function Activities() {
           </div>
 
           {/* Winter */}
-          <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500">
+          <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-teal-500">
             <h3 className="text-xl font-bold text-gray-900 mb-3">
               ❄️ Winter & Advent
             </h3>
