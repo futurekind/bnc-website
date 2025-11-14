@@ -2,19 +2,33 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="py-16 md:py-24 px-4">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-8">
-          <Image
-            src="/assets/BNC-Logo transparent (1).png"
-            alt="Bruckfelder Narren-Club Logo"
-            width={200}
-            height={200}
-            className="mx-auto"
-            priority
-          />
+    <section className="py-16 md:py-24 px-4 relative overflow-hidden">
+      {/* Decorative background elements */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-10 left-10 w-32 h-32 bg-amber-200 rounded-full opacity-20 blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-200 rounded-full opacity-20 blur-3xl"></div>
+      </div>
+
+      <div className="max-w-4xl mx-auto text-center relative z-10">
+        {/* Logo with decorative circle and shadow */}
+        <div className="mb-8 relative inline-block">
+          <div className="absolute inset-0 bg-gradient-to-br from-amber-100 to-orange-100 rounded-full blur-2xl opacity-50 scale-110"></div>
+          <div className="relative bg-white rounded-full p-8 shadow-2xl ring-4 ring-amber-200/50">
+            <Image
+              src="/assets/BNC-Logo transparent (1).png"
+              alt="Bruckfelder Narren-Club Logo"
+              width={260}
+              height={260}
+              className="mx-auto"
+              priority
+            />
+          </div>
+          {/* Decorative stars */}
+          <div className="absolute -top-2 -right-2 text-4xl animate-pulse">✨</div>
+          <div className="absolute -bottom-2 -left-2 text-3xl animate-pulse delay-150">⭐</div>
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+
+        <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 font-[family-name:var(--font-caveat)]">
           Bruckfelder Narren-Club e.V.
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">

@@ -1,8 +1,8 @@
 export function JoinUs() {
   return (
     <section id="mitmachen" className="py-16 px-4 bg-white">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+      <div className="max-w-4xl mx-auto text-center -rotate-[0.5deg]">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 font-[family-name:var(--font-caveat)]">
           Mitmachen & Mitglied werden
         </h2>
         <div className="bg-gradient-to-r from-amber-100 to-orange-100 rounded-lg p-8 md:p-12 shadow-lg">

@@ -1,8 +1,8 @@
 export function Activities() {
   return (
     <section id="aktivitaeten" className="py-16 px-4 bg-gradient-to-b from-amber-50 to-white">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
+      <div className="max-w-6xl mx-auto rotate-[0.5deg]">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 text-center font-[family-name:var(--font-caveat)]">
           Unsere Aktivitäten
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
