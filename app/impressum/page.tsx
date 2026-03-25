@@ -72,7 +72,7 @@ export default function Impressum() {
                   vorstand@bnc-bruckfelden.de
                 </a>
                 <br />
-                Telefon: +49 7554 8877
+                Telefon: +49 7554 9225
               </p>
             </section>
 
@@ -83,9 +83,9 @@ export default function Impressum() {
               <p className="text-gray-700">
                 Eintragung im Vereinsregister
                 <br />
-                Registergericht: [Amtsgericht]
+                Registergericht: Amtsgericht Freiburg
                 <br />
-                Registernummer: [VR-Nummer]
+                Registernummer: VR 580805
               </p>
               <p className="text-gray-700 mt-2">
                 Die Satzung des Vereins kann{" "}
