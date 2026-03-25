@@ -11,6 +11,15 @@ export function Footer() {
         >
           Impressum
         </Link>
+        <span className="mx-2">·</span>
+        <a
+          href="/satzung.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-teal-400 hover:text-teal-300 transition-colors"
+        >
+          Satzung (PDF)
+        </a>
       </div>
     </footer>
   );

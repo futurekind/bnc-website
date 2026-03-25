@@ -44,9 +44,9 @@ export default function Impressum() {
               <p className="text-gray-700">
                 <strong>Bruckfelder Narren-Club e.V.</strong>
                 <br />
-                Felderstraße 1
+                Nussbaumweg 2a
                 <br />
-                88699 Frickingen- Bruckfelden
+                88699 Frickingen-Bruckfelden
               </p>
             </section>
 
@@ -55,7 +55,7 @@ export default function Impressum() {
                 Vertreten durch
               </h2>
               <p className="text-gray-700">
-                Christof Glückler
+                Eugen Trinler
                 <br />
                 1. Vorsitzender
               </p>
@@ -87,6 +87,18 @@ export default function Impressum() {
                 <br />
                 Registernummer: [VR-Nummer]
               </p>
+              <p className="text-gray-700 mt-2">
+                Die Satzung des Vereins kann{" "}
+                <a
+                  href="/satzung.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-600 hover:text-amber-700 underline"
+                >
+                  hier als PDF heruntergeladen
+                </a>{" "}
+                werden.
+              </p>
             </section>
 
             <section>
@@ -94,9 +106,9 @@ export default function Impressum() {
                 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
               </h2>
               <p className="text-gray-700">
-                Christof Glückler
+                Eugen Trinler
                 <br />
-                Felderstraße 1
+                Nussbaumweg 2a
                 <br />
                 88699 Bruckfelden
               </p>
